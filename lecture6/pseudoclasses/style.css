@@ -1,0 +1,33 @@
+body h1:hover{
+    color: grey;
+    font-size: 40px;
+    background-color: aqua;
+    transition: 0.25s;
+    border: 2px solid black;
+}
+h1{
+    color: aqua;
+    display: inline-block;
+    border-radius: 8rem;
+}
+*{
+    margin: 0;
+    padding: 0%;
+}
+input{
+    background-color: aqua;
+}
+input:focus{
+    background-color: rgb(89, 113, 186);}
+a{
+    color: blue;
+}
+a:active{
+    color: blueviolet;
+}
+a:visited{
+    color: red;
+}
+hr{
+    line-height: 5%;
+}

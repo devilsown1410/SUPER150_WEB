@@ -1,0 +1,21 @@
+/*ul>li{
+    /*font-size: 2rem;
+    font-size: 200%;
+}*/
+section{
+    width: 700px;
+    background-color: rgb(203, 122,16);
+}/*
+div{
+    width: 50%;
+    background-color: blue;
+}
+ul>li{
+    font-size: 5rem;
+}
+*/
+section{
+    width: 50vw;
+    height: 50vh;
+    background-color: azure;
+}

@@ -1,0 +1,29 @@
+/*h1::after{
+    content: " lets study";
+}
+h1::before{
+    content: '\1F494' "light kaha hai ";
+
+}
+p::first-line{
+    text-transform: uppercase;
+    background-color: aliceblue;
+}
+p::first-letter{
+    color: yellow;
+    font-size: 50px;
+}*/
+ul>li{
+    padding: 5px 5px;
+    color: rgba(199, 30, 50,0.6);
+    font-size: 25px;
+    border: 6px solid green;
+    border-width: 5%;
+    margin: 4px;
+    border-radius: 1rem;
+    border-style: groove;
+
+
+}
+
+

@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    border:2px solid red;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+
+}
+.primary{
+    float: right;
+}
+.logo{
+    display: inline-flex;
+}
