@@ -1,0 +1,53 @@
+/* 
+    above 1400px- mega big screens
+    1400px to 1200px- big screeen
+    991px to 1200px - laptop
+    767px to 991px- tabs min laptops
+    576px to 767px- mini tabs
+    less than 576px- phone
+ */
+ h1{
+    color: red;
+ }
+ div{
+    width: 600px;
+    border: 2px solid black;
+    margin: 20px auto;
+}
+/* @media screen and (max-width:500px) {
+    h1{
+        color: green;
+    }
+    p{
+        font-size: 40px;
+    }
+}
+@media  screen and (orientation:landscape), (min-width:500px)  {
+    h1{
+        background-color: rgb(0, 17, 128);
+    }
+}
+@media  screen and (orientation:portrait),(max-width:499px) {
+    h1{
+        background-color: rgb(203, 129, 55);
+    }
+} */
+@media screen and (max-width:992px) {
+    h1{
+        background-color: rgb(3, 5, 124);
+    }
+}
+@media screen and (max-width:768px) {
+    h1{
+        background-color: pink;
+    }
+}
+@media screen and (max-width:576px) {
+    h1{
+        background-color: coral;
+    }
+}
+/* 
+    max likhte hue- badi value upar
+    min likhte hue- choti value upar
+*/

@@ -1,0 +1,13 @@
+div:hover{
+    background-color: aqua;
+    border-radius: 50%;
+}
+div{
+    background-color: lightgrey;
+    height: 100px;
+    width: 100px;
+    /* it is used to add transition duration */
+    transition-duration: 2s;
+    /* it is used to apply transition to a particular property */
+    transition-property: background-color border-radius;
+}

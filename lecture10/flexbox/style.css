@@ -1,0 +1,45 @@
+div{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    display: flex;
+
+}
+section{
+    height: 500px;
+    display: flex;
+    /* gap: 1rem; */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    justify-content: space-between;
+    /* align-items: stretch; */
+    align-items: center;
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    /* align-items: first baseline; */
+    border: 2px solid red;
+    flex-wrap: nowrap;
+    /* flex-wrap: wrap; */
+
+}
+/*By default flex shrink is 1
+  flex grow is not enabled by default  */
+#div3{
+    /* flex-grow: 2; */
+    flex-shrink: 2;
+    align-self: flex-end;
+}
+#div2{
+    /* flex-grow: 3; */
+    align-self: flex-start;
+}
+#div1{
+    flex-shrink: 1;
+    align-self: center;
+}

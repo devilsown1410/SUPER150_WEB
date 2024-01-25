@@ -1,0 +1,24 @@
+h1{
+    color: red;
+    transition-duration: 2s;
+    text-align: center;
+}
+h1:hover{
+    /* transform: translateX(50px);
+    
+    Latest transform will apply 
+
+    transform: translateY(50px);
+
+    X and Y axis given 
+
+    transform: translate(100px,100px); */
+
+    /* transform: rotateX(90deg); */
+    /* transform: rotateY(360deg); */
+
+    /* transform: scaleX(1.2); */
+    /* transform: scaleY(4.2); */
+    transform: scale(2.2,2.2);
+
+}

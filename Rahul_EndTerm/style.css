@@ -1,0 +1,69 @@
+nav{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding-left: 4% ;
+    width: 100%;
+    height: 10%;
+    height: 6%;
+    /* padding: 1%; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+
+}
+.intro{
+    background-image: url("https://images.unsplash.com/photo-1566808907623-51b8fc382454?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav div{
+    font-size: larger;
+    /* margin: 5px 10px; */
+    height:100%;
+    width: 10%;
+    
+}
+nav a{
+    text-decoration: none;
+    color: grey;
+    transition: .5s;
+    height:100%;
+    width: 6%;
+}
+.photo1{
+    height: 10%;
+    width: 12%;
+}
+.mytour .row .col .card .card-body .astr:hover{
+    background-color: white;
+}
+.centered {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+body{
+    color: black;
+}
+.photo{
+    display: flex;
+    flex-direction: column;
+}
+.photo1 img{
+    height: 70%;
+    width: 230%;
+}
+.good .iam{
+    margin-left: 40%;
+}

@@ -1,0 +1,42 @@
+nav{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+  
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav div{
+    font-size: larger;
+    margin: 5px 10px;
+}
+nav a{
+    text-decoration: none;
+    color: grey;
+    transition: .5s;
+
+}
+nav a:hover{
+    background-color: white;
+}
+header img{
+    width:100%;
+    height: 70vh;
+}
+body{
+    color: grey;
+}
+.photo{
+    display: flex;
+    flex-direction: column;
+}
+.photo1 img{
+    height: 70%;
+    width: 230%;
+}
+.good .iam{
+    margin-left: 40%;
+}

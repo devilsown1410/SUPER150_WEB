@@ -1,0 +1,39 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    animation-name: something;
+    animation-duration: 3s;
+    /* animation-delay: 2s; */
+    /* animation-iteration-count: infinite; */
+    animation-iteration-count: 3;
+    /* for stopping at final use forwards */
+    /* animation-fill-mode: forwards; */
+    /* for stopping at initials use backwards */
+    animation-fill-mode: backwards;
+    /* animation-direction: alternate-reverse; */
+    animation-direction: alternate;
+    animation-play-state: paused;
+}
+.box:hover{
+   
+    animation-play-state: running;
+
+}
+@keyframes something {
+    /* from{
+        height: 100px;
+    }
+    to{
+        height: 500px;
+    } */
+    0%{
+        height: 100px;
+    }
+    50%{
+        height:600px ;
+    }
+    100%{
+        height :400px;
+    }
+}
